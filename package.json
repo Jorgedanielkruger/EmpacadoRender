@@ -1,28 +1,17 @@
 {
+  "name": "simulador_empaque1",
+  "version": "0.0.0",
   "scripts": {
-    "start": "node server.js",
-    "build": "react-scripts build",
-    "render-postbuild": "npm run build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "serve": "^14.2.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "react-scripts": "^5.0.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0"
   }
 }
